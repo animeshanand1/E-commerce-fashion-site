@@ -567,6 +567,53 @@ footer .copyright {
 /* ####Shop-page### */
 #page-header{
     width: 100%;
+    padding: 20px 15px;
     height: 40vh;
     background-image: url('./img/banner/b1.jpg');
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#page-header h2,p{
+    color: white;
+}
+#pagination{
+    text-align: center;
+    margin-bottom: 16px;
+}
+#pagination a{
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    
+}
+#pagination a l{
+    font-size: 16px;
+}
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+#prodetails .pro-img{
+
+    width: 40%;
+    margin-right: 50px;
+}
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+.small-grp-img{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
 }
