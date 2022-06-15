@@ -90,6 +90,9 @@
 .section-p1 {
   padding: 40px 80px;
 }
+.section-p1 p{
+  color: black;
+}
 .feature-box {
   width: 180px;
   text-align: center;
